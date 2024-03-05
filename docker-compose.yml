@@ -11,4 +11,3 @@ services:
     restart: always
     ports:
       - "1812-1813:1812-1813/udp"
-command: radiusd -X
