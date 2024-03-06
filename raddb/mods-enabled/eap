@@ -401,8 +401,8 @@ eap {
                 #  TLS cipher suites.  The format is listed
                 #  in "man 1 ciphers".
                 #
-                # cipher_list = "DEFAULT"
-                cipher_list = "HIGH"
+                cipher_list = "DEFAULT"
+                #cipher_list = "HIGH"
 
                 #  If enabled, OpenSSL will use server cipher list
                 #  (possibly defined by cipher_list option above)
