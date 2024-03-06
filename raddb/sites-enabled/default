@@ -116,9 +116,9 @@ listen {
         #             If both A and AAAA records are returned
         #             for the host name, only the A record is used.
         #
-        # ipv4addr = *
+        ipv4addr = *
         # ipv6addr = *
-        ipaddr = *
+        # ipaddr = *
 
         #  Port on which to listen.
         #  Allowed values are:
