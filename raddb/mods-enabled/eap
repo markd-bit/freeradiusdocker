@@ -401,8 +401,8 @@ eap {
                 #  TLS cipher suites.  The format is listed
                 #  in "man 1 ciphers".
                 #
-                cipher_list = "DEFAULT"
-                #cipher_list = "HIGH"
+                # cipher_list = "DEFAULT"
+                cipher_list = "HIGH"
 
                 #  If enabled, OpenSSL will use server cipher list
                 #  (possibly defined by cipher_list option above)
@@ -487,7 +487,7 @@ eap {
                 #  SUPPORT TLS 1.3.
                 #
                 tls_min_version = "1.2"
-                #tls_max_version = "1.2"
+                # tls_max_version = "1.2"
                 tls_max_version = "1.3"
 
                 #  Elliptical cryptography configuration
@@ -703,7 +703,7 @@ eap {
                         #  If the OCSP Responder address is not extracted from
                         #  the certificate, the URL can be defined here.
                         #
-                        url = "https://app-scepman-tcprnaqetvq3y.azurewebsites.net/ocsp"
+                        url = "https://<OCSP-Responder-URL>/ocsp"
 
                         # If the OCSP Responder can not cope with nonce
                         # in the request, then it can be disabled here.
