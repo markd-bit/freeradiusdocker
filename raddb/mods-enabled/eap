@@ -703,7 +703,7 @@ eap {
                         #  If the OCSP Responder address is not extracted from
                         #  the certificate, the URL can be defined here.
                         #
-                        url = "https://<OCSP-Responder-URL>/ocsp"
+                        url = "https://app-scepman-tcprnaqetvq3y.azurewebsites.net/ocsp"
 
                         # If the OCSP Responder can not cope with nonce
                         # in the request, then it can be disabled here.
