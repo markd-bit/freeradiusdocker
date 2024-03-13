@@ -690,7 +690,7 @@ eap {
                         #  also disables ocsp checking
                         #
                         # enable = no
-                        enable = yes
+                        enable = no
 
                         #  The OCSP Responder URL can be automatically
                         #  extracted from the certificate in question.
